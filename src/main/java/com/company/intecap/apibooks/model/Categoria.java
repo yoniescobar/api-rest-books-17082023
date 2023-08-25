@@ -17,6 +17,8 @@ public class Categoria  implements Serializable {
     //definimos los atributos de la clase
     private Long id;
     private String nombre;
+    //tamaño de la columna
+   // @Column(name = "descripcion", length = 200)
     private String descripcion;
 
     //definimos los metodos get y set de los atributos de la clase (encapsulamiento)
