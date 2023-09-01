@@ -13,4 +13,10 @@ public interface ICategoriaService {
     public ResponseEntity<CategoriaResponseRest> buscarPorId(Long id);
     // metodo que crea una categoria
     public ResponseEntity<CategoriaResponseRest> crear(Categoria categoria);
+    // metodo que actualiza una categoria
+    public ResponseEntity<CategoriaResponseRest> actualizar(Categoria categoria, Long id);
+
+    // metodo que elimina una categoria
+    public ResponseEntity<CategoriaResponseRest> eliminar(Long id);
+
 }
